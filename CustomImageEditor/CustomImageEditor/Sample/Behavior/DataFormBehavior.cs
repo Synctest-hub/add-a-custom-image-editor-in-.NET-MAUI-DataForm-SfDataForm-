@@ -15,10 +15,6 @@ namespace CustomImageEditor
         protected override void OnDetachingFrom(SfDataForm dataForm)
         {
             base.OnDetachingFrom(dataForm);
-            if (dataForm != null)
-            {
-                dataForm = null;
-            }
-        }
+        }   
     }
 }
